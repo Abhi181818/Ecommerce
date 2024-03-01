@@ -8,3 +8,14 @@ Dependencies
     Front-end: React, React Router, Axios
     Back-end: Node.js, Express.js, MongoDB, Mongoose
     Payment: Paypal
+
+Contributing
+
+If you'd like to contribute to this project, please follow the Contribution Guidelines.
+License
+
+This project is licensed under the MIT License.
+
+Feel free to reach out if you have any questions or need further assistance.
+
+Happy coding!
