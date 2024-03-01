@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Andika", sans-serif;
+}
+
+
+.navbar {
+    border-radius: 12px;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.1);
+    --webkit-box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.nav-link {
+
+    font-weight: 500 !important;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+
+.nav-item :active {
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgb(103, 103, 103)
+}
+
+.nav-item .active {
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgb(103, 103, 103);
+    border-bottom: 3px solid #2548e6 !important;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.footer {
+    color: antiquewhite;
+    padding: 25px;
+    background-color: #1a1a1a;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(208, 180, 143);
+}
+
+.footer a:hover {
+    color: #f6f6f6;
+    text-decoration: underline;
+    transition: 0.5s;
+
+}
+
+.pnf {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pnf-404 {
+    font-weight: 800;
+}
+
+.pnf p {
+    font-weight: 700;
+}
+
+.go-back-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: #2548e6;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.go-back-btn :hover {
+    background-color: #3131c0;
+}
+
+.about-heading {
+    height: 50px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+
+.register {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register .btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: #2548e6;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register .btn:hover {
+    box-shadow: 10px 10px 10px 5px rgba(26, 91, 202, 0.1);
+}
+
+.register .btn :active {
+    box-shadow: 2px 2px 5px #0e0e0e;
+
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-label {
+    font-weight: 500;
+
+}
+
+.form-control {
+    border-radius: 12px;
+    border: 1px solid #d1d1d1;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.form-container {
+    transition: all 1s;
+    box-shadow: 1px 12px 10px 5px rgb(77, 77, 76);
+    width: 50vh;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form-container :hover {
+    transition: 1s;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.form-container input {
+    font-weight: 800;
+}
+
+.profile-menu {
+    border-radius: 12px;
+    border-bottom: 3px solid #3131c0;
+}
+
+.list-group :hover {
+    border-radius: 12px;
+    transition: 0.5s;
+    box-shadow: 0px 2px 9px #b5b5ba;
+}
+
+.list-group h3 {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 1px solid #3131c0;
+}
+
+.list-group-item {
+    padding: 12px;
+    margin: 12px;
+}
+
+.list-group-item:active {
+    border-radius: 12px;
+    transition: 0.5s;
+    box-shadow: 0px 2px 9px #3131c0;
+}
+
+
+.product-image :hover{
+    transition: 0.5s;
+    box-shadow: 0px 2px 9px #67676d;
+
+}
+
+.add-to-cart-btn:hover {
+    background-color: #3131c0;
+    transition: 0.5s;
+    box-shadow: 0px 2px 9px #3131c0;
+}
+.view-detail-btn:hover{
+    background-color: #e13b5f;
+    transition: 0.5s;
+    box-shadow: 0px 2px 9px #cc3757;
+}
